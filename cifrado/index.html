@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/cifrado/style.css">
+    <title>Cifrado</title>
+</head>
+
+<body onclick='playaudio()'>
+
+    <audio id="ip" controls loop>
+        <source src="/cifrado/sound/turip.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <div class="centrao">
+            <h1>🗿Cifrado Cesar🗿</h1>
+            <div class="centrar separacion">
+                <input id="mensajet" class="cuadro" type="text" placeholder="Ingrese su mensaje" >
+            </div>
+            <div class="centrar separacion">
+                <input id="NumCifrado" class="cuadro" type="number" placeholder="No. de desplazamiento">
+            </div>
+            <div class="centrar separacion">
+                <input required onclick="cifrar()" class="btn-add" type="button" value="Cifrar">
+                <input required onclick="descifrar()" class="btn-add" type="button" value="Descifrar">
+            </div>
+            <div class="centrar separacion">
+                <p id="mensajetCifrado"></p>
+                <p id="mensajetDescifrado"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/cifrado/cifrado.js"></script>
+</body>
+</html>

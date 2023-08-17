@@ -1,0 +1,82 @@
+body{
+    background-image: url('/cifrado/images/fondo.jpg');
+}
+
+
+input{
+    background-color: rgba(255, 255, 255, 0.561);
+    width: 300px;
+    height:30px;
+    margin: 8.5px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 40px; 
+    margin-top: 0px;
+}
+
+
+p{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.561);
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: Gill Sans;
+}
+
+audio{
+    margin-left: 900px;
+    height: 10px;
+}
+
+.container{
+    display: block;
+    background-color: rgba(145, 138, 138, 0.771);
+    width: 490px;
+    margin: 220px auto;
+    height: 480px;
+    text-align: center;
+    border-radius: 5px;    
+}
+
+
+.centrar{
+    margin: auto;
+}
+
+
+.separacion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.centrao{
+    padding: 50px;
+}
+
+
+.cuadro{
+    width: 270px;
+    height: 35px;
+    text-align-last: center;
+}
+
+
+.btn-add{
+    background-color: rgb(74, 184, 188);
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: auto;
+}
+
+.btn-add:hover{
+    background-color: cadetblue;
+}
